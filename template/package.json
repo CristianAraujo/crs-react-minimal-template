@@ -1,0 +1,23 @@
+{
+  "name": "crs_minimal_template",
+  "private": true,
+  "version": "0.0.0",
+  "author": "Cristian Ignacio Araujo",
+  "type": "module",
+  "description": "Minimalist template for personal use",
+  "keywords": ["vite", "react", "template"],
+  "files":["template"],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react-swc": "^3.8.0",
+    "vite": "^6.2.0"
+  }
+}
